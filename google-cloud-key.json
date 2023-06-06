@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bismillah-capstone",
+  "private_key_id": "6dfb29bbebfd2f724ec68bab30cd2b03f9d109c8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDZ4XEh8j7iZkXq\n32mVztHXh3HOf4BpokbSYy2W7HLoT6ZCDf0K1gwMfDFh71swTMz/Gh8kYwMy7Pag\nlAByxNfFx5zi9hPIfcP1ImePSB7KfhA5nWbEurQCj7otLZ9yc/Xuoo/Nge6RH6kS\naUyHlMjjvkO7QLCdlsXXRs90hlP/fsmq8Pd1J2VzLPssXVZuC9jngC/F5Jv4WpW+\nYUSqGFUnveUndzJGv126uN27S/6iDbu9GqDeKOpj67Gt6j+VreVwV7EZqp9MC8KX\nVqgdbXAKJTnwKBE03gKPcKrbZjMLkt1sNaK2mB9I57Whbnj2rJdgqD57BL5t+yma\n6nzY9nurAgMBAAECggEAScc9N/F/ucpIArCEYGYYSJNkxjgGk76PnM5YsbJ/dosC\nEXwLI5A3pEKptjAHAOQAxqFhykB85NG48ccsH7DoH+DoDzKkoE91+5wa1Tnms0rc\n06WpFxThv7xLnuDEDU2XCaeiakSFND80UTe24nJPVE8pQE83fyV++NbRiPOzneAB\nEbbDS18lBi5HBx/zs7Cykj7PxBL2VgksD5ztES2jNjg1I69oKOFW2aqFra5Amz7d\nnEzF+KRloVYdFA+DDJJAxFZclX33Q0o+TOhq/qyE2m7c7K0eThAkUhXuAK9bVP5q\npYPi5Qj/lr6ttru36TVk4ocybjY4TLjTB7xQNBrDgQKBgQDwO6msTu7Asj3xLS4w\nFI5keL2tLdqzEGz6gCbasXtjnzRhgTzYXH3HPzA029RxOlOB5mgzB8v/Fc2ICcbQ\niEp+6f7oXcR1g5n8KC8O8W2gv5rGvL28tXg/dugqssdH5UR/FjHe5qb4iaXaUrNj\n56tl+x6NJkBcdMtxo9uwdfN/JwKBgQDoLjgZ2B6dTzMtjoPtda29fSPwv9/kX1ns\n6B1KPy4mdfLF9SwAq/I5s3FpSS5MJF14GEjUBvhZDwsrjdg7O6eJs6tG2ARJJUQq\n8WJipEC88D4jJgKot7WnYm2NXxmFCBvM2UL5yeYGFLvOgnyHQFDzGtTwwtsxxDOY\n81+7xULx3QKBgG328Yj1LKa6ME5onv7VOgTVnAVcuwJCX5Ae/yoWGeQVKRYE4YQs\nekqtKvTXN5yI1Vbd0A6j4AYoxcciqoYkDO2hUNSur1IXZnIdNsVBUCxH6KJWHQf3\njU6HsGhzI3NOiBcgYr2kmQOlhmy0dHcjwbpRw79aphVsRQAEwHg61bX7AoGAJ+8L\nJybM3TGqE8PXXRhIcbb8X4Qg9h6QUPb7UrHbNjJDN1kb4GGyn8oFT56On/oBOY6z\nuAQa4vZ7bVpQPp/cCQsmAmFVG1+Vge1ShrTJjbWkelcnTe2LCOcdAJvCv+bNIUad\nBml7bsBSLQq0cG7XfXi391EMclrUpRH2/UzIXuECgYAZthccS8GW30LGtB76OkMg\nwI6ZKKPNxsmqZfeDTek2MMOf4ELcP90YSCGIWfsYQ2NWmRQrWs06t/4D6TMscFDX\n3mfdx/pGlMSv88R8/IJXzzJHNJQbd2E3zpZzXuUNKoXAI821oiAr18Bb0YH3vYCo\n6j6/fgws/h69HGCj5EhvHg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "saveplate@bismillah-capstone.iam.gserviceaccount.com",
+  "client_id": "113780918355649162992",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/saveplate%40bismillah-capstone.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

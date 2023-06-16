@@ -62,7 +62,14 @@ _Below is an example of how you can instruct your audience on installing and set
     ```
     pm2 start index.js
     ```
+17. And for the Model Machine Learning API download the Model in this Drive link : https://drive.google.com/file/d/18dG03EWljdmDsEDAO4UF9-byrB0GB7Vk/view?usp=sharing
+19. then install the necessary python dependencies (python 3.10, flask, Tensorflow etc)
+20. then run the command below for running ML API
+    ```
+    pm2 start wrapper.js
+    ```
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- API Endpoint -->
 ## API Endpoint

@@ -69,16 +69,16 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- API Endpoint -->
 ## API Endpoint
 
-* API Documentation
+* API Documentation\
     https://documenter.getpostman.com/view/21074828/2s93sXduov
 
 <!-- API List -->
 ## API List
 
 ### User Sign Up
-* URL
+* URL\
     http://34.143.148.129:5000/signup
-* Method
+* Method\
     Post
 * Request Body
     - username (string)
@@ -93,9 +93,9 @@ _Below is an example of how you can instruct your audience on installing and set
   ```
 
 ### User Sign In
-* URL
+* URL\
     http://34.143.148.129:5000/signin
-* Method
+* Method\
     Post
 * Request Body
     - email (string)
@@ -108,9 +108,9 @@ _Below is an example of how you can instruct your audience on installing and set
   ```
 
 ### Profile
-* URL
+* URL\
     http://34.143.148.129:5000/users
-* Method
+* Method\
     Get
 * Respone
     ```sh
@@ -120,9 +120,9 @@ _Below is an example of how you can instruct your audience on installing and set
   ```
 
 ### Update Profile
-* URL
+* URL\
     http://34.143.148.129:5000/update
-* Method
+* Method\
     Put
 * Request Body
     - username (string)
@@ -136,9 +136,9 @@ _Below is an example of how you can instruct your audience on installing and set
   ```
 
 ### User Sign Out
-* URL
+* URL\
     http://34.143.148.129:5000/signout
-* Method
+* Method\
     Delete
 * Respone
     ```sh

@@ -1,7 +1,7 @@
 # Cloud Computing repository of SavePlate-sql-rest-api.
 ## Welcome to SavePlate-sql-rest-api
 <p align="center"> <img src="https://user-images.githubusercontent.com/86178738/171544543-61170e4e-dc04-4369-98ab-2ccc89c63017.png" width="150" height="150" /> </p>
-
+![alt text](https://github.com/dhimasalfathi/SavePlate-CC/blob/master/saveplate.jpg?raw=true)
 <div align="center">
   <p align="center">
     <a href="https://github.com/aldybw/SavePlate-sql-rest-api"><strong>Back to the main repository</strong></a>

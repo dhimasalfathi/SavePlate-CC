@@ -70,21 +70,21 @@ _Below is an example of how you can instruct your audience on installing and set
 ## API Endpoint
 
 * API Documentation
-  https://documenter.getpostman.com/view/21074828/2s93sXduov
+    https://documenter.getpostman.com/view/21074828/2s93sXduov
 
 <!-- API List -->
 ## API List
 
 ### User Sign Up
 * URL
-  http://34.143.148.129:5000/signup
+    http://34.143.148.129:5000/signup
 * Method
-  Post
+    Post
 * Request Body
-  username (string)
-  email (string)
-  password (string)
-  confPassword (string)
+    - username (string)
+    - email (string)
+    - password (string)
+    - confPassword (string)
 * Respone
     ```sh
   {
@@ -94,12 +94,12 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ### User Sign In
 * URL
-  http://34.143.148.129:5000/signin
+    http://34.143.148.129:5000/signin
 * Method
-  Post
+    Post
 * Request Body
-  email (string)
-  password (string)
+    - email (string)
+    - password (string)
 * Respone
     ```sh
   {
@@ -109,9 +109,9 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ### Profile
 * URL
-  http://34.143.148.129:5000/users
+    http://34.143.148.129:5000/users
 * Method
-  Get
+    Get
 * Respone
     ```sh
   {
@@ -121,13 +121,13 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ### Update Profile
 * URL
-  http://34.143.148.129:5000/update
+    http://34.143.148.129:5000/update
 * Method
-  Put
+    Put
 * Request Body
-  username (string)
-  email (string)
-  pic (file)
+    - username (string)
+    - email (string)
+    - pic (file)
 * Respone
     ```sh
   {
@@ -137,9 +137,9 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ### User Sign Out
 * URL
-  http://34.143.148.129:5000/signout
+    http://34.143.148.129:5000/signout
 * Method
-  Delete
+    Delete
 * Respone
     ```sh
   {

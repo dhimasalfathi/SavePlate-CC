@@ -58,11 +58,9 @@ _Below is an example of how you can instruct your audience on installing and set
 12. Open ssh and clone github repo in ssh
 13. install all the necessary dependencies (pm2, flask, and npm)
 14. test the endpoint by running command "nodemon index.js" if succes the you're good to go
-15. then run pm2 start index.js for running REST API backend
-
-15. Run the command below:
-    ```sh
-    ./deploy.sh
+15. Run the command below for running REST API backend
+    ```
+    pm2 start index.js
     ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 

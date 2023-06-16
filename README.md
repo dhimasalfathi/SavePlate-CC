@@ -42,7 +42,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/aldybw/camerlang-sql-rest-api
+   git clone https://github.com/dhimasalfathi/SavePlate-CC
    ```
 2. Install NPM packages
    ```sh
@@ -85,12 +85,83 @@ _Below is an example of how you can instruct your audience on installing and set
     ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- LICENSE -->
-## License
+<!-- API Endpoint -->
+## API Endpoint
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+* API Documentation
+  https://documenter.getpostman.com/view/21074828/2s93sXduov
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<!-- API List -->
+## API List
 
-<!-- CONTACT -->
-## Contact
+### User Sign Up
+* URL
+  http://34.143.148.129:5000/signup
+* Method
+  Post
+* Request Body
+  username (string)
+  email (string)
+  password (string)
+  confPassword (string)
+* Respone
+    ```sh
+  {
+      "message": "string",
+  }
+  ```
+
+### User Sign In
+* URL
+  http://34.143.148.129:5000/signin
+* Method
+  Post
+* Request Body
+  email (string)
+  password (string)
+* Respone
+    ```sh
+  {
+      "message": "string",
+  }
+  ```
+
+### Profile
+* URL
+  http://34.143.148.129:5000/users
+* Method
+  Get
+* Respone
+    ```sh
+  {
+      "message": "string",
+  }
+  ```
+
+### Update Profile
+* URL
+  http://34.143.148.129:5000/update
+* Method
+  Put
+* Request Body
+  username (string)
+  email (string)
+  pic (file)
+* Respone
+    ```sh
+  {
+      "message": "string",
+  }
+  ```
+
+### User Sign Out
+* URL
+  http://34.143.148.129:5000/signout
+* Method
+  Delete
+* Respone
+    ```sh
+  {
+      "message": "string",
+  }
+  ```

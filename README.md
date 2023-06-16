@@ -49,35 +49,16 @@ _Below is an example of how you can instruct your audience on installing and set
    npm install
    ```
 3. Go to [Google Cloud Platform](https://console.cloud.google.com/)
-4. Go to search field and search for SQL service
-5. Create an Instance, and choose mySQL
-6. select MySQL 5.7 for Database version
+5. Create an Instance, in Compute Engine
 7. Click on "show configuration option and select "machine type"
 8. Click the drop down box and choose standard machine (1 vCPU, 3.75 GB)
 9. Storage type SSD and select the capacity 10GB. Don't forget to checklist "Enable automatic storage increases"
 10. Expand the connections setting, checklist on public IP then click add network, fill the network with "0.0.0.0/0", click done.
 11. And create Instance
-12. Open new terminal (shell or Bash), make sure your project location to "/CAMerlang-sql-rest-api"
-13. Open ".env" file and change to your configuration
-
-    >> #PRODUCTION<br>
-    >> DB_PORT=3306 (Your DB port)<br>
-    >> DB_NAME=camerlang_db (Your DB name)<br>
-    >> DB_USERNAME=root (Your DB username)<br>
-    >> DB_PASSWORD=qwerty123 (Your DB pass)<br>
-    >> DB_HOSTNAME=35.226.234.192 (Your SQL Public IP address)<br>
-    >> INSTANCE_CONNECTION_NAME=35.226.234.192 (Your SQL Public IP address)
-
-14. Open "deploy.sh" file and change to your configuration
-
-    >> GOOGLE_PROJECT_ID=camerlang-development (your project id)<br>
-    >> CLOUD_RUN_SERVICE=camerlang-api-service (your service name)<br>
-    >> INSTANCE_CONNECTION_NAME=camerlang-development:us-central1:camerlang-rest-api (your connection name)<br>
-    >> DB_USERNAME=root (your DB username)<br>
-    >> DB_PASSWORD=qwerty123 (your DB pass)<br>
-    >> DB_NAME=camerlang_db (your DB name)<br>
-    >> DB_HOSTNAME=35.226.234.192 (your SQL public IP address)<br>
-    >> DB_PORT=3306 (your DB port)
+12. Open ssh and clone github repo in ssh
+13. install all the necessary dependencies (pm2, flask, and npm)
+14. test the endpoint by running command "nodemon index.js" if succes the you're good to go
+15. then run pm2 start index.js for running REST API backend
 
 15. Run the command below:
     ```sh
